@@ -13,9 +13,13 @@ gem 'coffee-rails', '4.2.1'
 gem 'jquery-rails', '4.1.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
-#LJEPSI ISPIS
+# ZA UPLOAD SLIKE
+gem 'carrierwave',   '0.11.2'
+gem 'mini_magick',   '4.5.1'
+gem 'fog',           '1.38.0'
+# LJEPSI ISPIS
 gem 'awesome_print', require:'ap'
-#ZA RAILS PANEL
+# ZA RAILS PANEL
 gem 'meta_request'
 
 
@@ -29,9 +33,9 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
-  #ERRORI
+  # ERRORI
   gem 'better_errors'
-  #DEBUGGER NA STEROIDIMA // binding.pry
+  # DEBUGGER NA STEROIDIMA // binding.pry
   gem 'pry-rails'
 end
 
